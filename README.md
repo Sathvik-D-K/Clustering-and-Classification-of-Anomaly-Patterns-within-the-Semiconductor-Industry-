@@ -1,7 +1,7 @@
 # Clustering-and-Classification-of-Anomaly-Patterns-within-the-Semiconductor-Industry-
 
-Exploratory data analysis is carried out on the image dataset of defective patterns from microchip
-fabrication.
-Defective patterns are clustered using the unsupervised machine learning K-means clustering
-technique.
-The obtained clusters are used as a pseudo label for the classification deep neural networks
+In the semiconductor microchip fabrication, the defective microchips form a spatial anomaly pattern on the silicon wafers, the base material on which several hundred microchips are fabricated. The anomaly patterns are caused due to different manufacturing failures leading to yield loss. This research project deals with the detection, grouping and prediction of these spatial defect patterns. The anomaly patterns are dynamic and unpredictable, making it merely impossible to effectively detect and classify through traditional methods of manual inspection. This creates the need to group these similar patterns using features in the data.
+
+To tackle this problem, this work aims at using the proven efficiency of deep learning technique of automatic feature learning and pattern recognition. The proposed method uses deep learning approach of feature extraction using a convolution autoencoder with an unsupervised K-means clustering algorithm to group the data. It also aims to build a classification neural network model to predict the group of anomaly pattern for a given image. Experiment is performed using the WM-811K wafer map image dataset. The proposed method uses semi-supervised approach, and the implemented method successfully identifies, groups, and predicts the wafer map images based on the characteristic spatial anomaly patterns.
+
+Dataset used : https://www.kaggle.com/datasets/qingyi/wm811k-wafer-map
